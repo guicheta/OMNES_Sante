@@ -34,8 +34,8 @@ margin-bottom: 7px;
 font-weight: 600;
 }
 
-form div > input, form div > select, form div > textarea {
-background: #23d1dd;
+form div > input, form div > select, form div > textarea { /*section d'ecriture*/
+background: #71ece6;
 border: none;
 border-radius: 5px;
 font-size: 16px;
@@ -70,25 +70,51 @@ form div > select:invalid {
 color: white;
 }
 
-form div > select option {
-background: white;
-color: #303030;
-}
-
 form div:last-child {
 align-items:center;
 margin-top: 20px;
 }
 
-form button {
-width: 450px;
-max-width: 500px;
-height: 60px;
-font-weight: 700;
-font-size: 28px;
+#sub {
+margin: 2px;
+width: 180px;
+height: 40px;
+font-size: 16px;
 background: white;
-border: rgba(48, 48, 48, 0.5) solid 1px;
 border-radius: 5px;
-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
-color: #303030;
+color: black;
 }
+
+#sub:hover {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    background: #1bf32d;
+    border-radius: 5px;
+    color: black;
+    transition: 2s;
+    }
+
+#co {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    background: white;
+    border-radius: 5px;
+    color: black;
+    }
+
+#co:hover {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background: #71ece6;
+    border-radius: 5px;
+    color: black;
+    transition: 2s;
+    }
