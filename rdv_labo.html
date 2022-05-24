@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>OMNES Santé</title>
+    <meta charset="UTF-8">
+    <link href="inscription.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="inscription">
+<h1>Prennez rendez-vous</h1>
+<p>Merci de renseigner les informations afin de prendre rendez-vous</p>
+<form action="/page-traitement-donnees" method="post">
+    <div>
+        <label for="nom">ID laboratoire</label>
+        <input type="text" id="id" name="id" placeholder="111" required>
+    </div>
+<div>
+    <label for="date">Horaire souhaité</label>
+    <input type="datetime-local" id="date" name="date" placeholder="12/11/2001 11:22" required>
+</div>
+<div>
+    <label for="date">Indiquer votre salle</label>
+    <input type="varchar" id="salle" name="salle" placeholder="B123" required>
+</div>
+<div>
+    <label for="nom">Rappelez votre ID</label>
+    <input type="text" id="prénom" name="prénom" placeholder="000" required>
+</div>
+<div>
+    <button type="submit">S'inscrire</button>
+</div>
+</form>
+</div>
+</body>
+</html>

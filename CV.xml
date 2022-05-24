@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.css" type="text/css" ?>
+<CV> 
+    <Medecin id="Bouree Pascal">
+        <Experience>Présentation : Médecin à la cool et 12 ans d'experience dans le domaine médical</Experience>
+        <spécialité>GENERALISTE</spécialité>
+        <Mail>pascal.bourre@omnes.sante.fr</Mail>
+        <Datenaissance>18/10/1975</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Guyot Anne">
+        <Experience>Présentation : Le médecin généraliste accueille les enfants et les adultes pour tous types de soins médicaux généraux (consultation, contrôle annuel, vaccination, bilan de santé). Il assure également un suivi des patients dans le temps et les oriente vers des médecins spécialistes en cas de besoin.</Experience>
+        <spécialité>GENERALISTE</spécialité>
+        <Mail>anne.guyot@omnes.sante.fr</Mail>
+        <Datenaissance>10/09/1978</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 2,5/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Florence Breuil">
+        <Experience>Présentation :
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>GENERALISTE</spécialité>
+        <Mail>florence.breuil@omnes.sante.fr</Mail>
+        <Datenaissance>11/02/1976</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 3,5/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Valin Giles">
+        <Experience>Présentation :
+
+        Le docteur Giles Valin, médecin généraliste, exerce dans un cabinet libéral indépendant proche de l'hôpital de Rambouillet.
+        Au sein d'un cabinet récent, le docteur Giles vous reçoit pour des consultations de médecine générale, pour des actes pédiatriques ou gynécologiques (suivi de grossesses, contraception, etc.), pour des expertises médicales dans le cadre d'un agrément ARS 78.
+        Le docteur Giles accepte les urgences, vous pouvez pour cela prendre rendez-vous en ligne ou par téléphone avec la secrétaire si vous ne trouvez pas de disponibilité sur internet.
+        Le docteur Giles n'effectue plus des déclarations "médecin traitant" au premier rendez-vous, en dehors des conjoints et enfants des patients déjà connus.
+
+        A noter : le docteur Giles reçoit le samedi de 9h à 11h.</Experience>
+        <spécialité>GENERALISTE</spécialité>
+        <Mail>giles.valin@omnes.sante.fr</Mail>
+        <Datenaissance>22/06/1977</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4,5/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Marger Olivier">
+        <Experience>Présentation : 
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>GENERALISTE</spécialité>
+        <Mail>folivier.marger@omnes.sante.fr</Mail>
+        <Datenaissance>01/01/1976</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4,6/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Malavoy Sophia">
+        <Experience>Présentation :
+        Psychologue clinicienne et psychothérapeute exerçant à la fois en cabinet libéral et en institution auprès de publics adultes et adolescents depuis une dizaine d’années. Formée aux thérapies d’orientation psychanalytique, aux thérapies cognitivo-comportementales ainsi qu'à l’hypnose thérapeutique et ayant une pratique intégrative. Celle-ci permet de définir avec le patient le type de prise en charge qui sera le plus adapté à ses besoins en fonction de ses symptômes, de sa souffrance, de ses difficultés et de la nécessité ou non d’avoir recours à l’une ou l’autre de ces approches thérapeutiques. Le premier entretien est l’occasion d’une rencontre afin d’évaluer les besoins de la personne venue consulter et les moyens mis en place par la psychologue pour y répondre.</Experience>
+        <spécialité>ADDICTOLOGUE</spécialité>
+        <Mail>sophia.malavoy@omnes.sante.fr</Mail>
+        <Datenaissance>14/02/1972</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 3,9/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Desvaux Pierre">
+        <Experience>Présentation : 
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>ANDROLOGUE</spécialité>
+        <Mail>pierre.desvaux@omnes.sante.fr</Mail>
+        <Datenaissance>08/12/1970</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4,9/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Brachat Olivier">
+        <Experience>Présentation : 
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>DERMATOLOGUE</spécialité>
+        <Mail>olivier.brachat@omnes.sante.fr</Mail>
+        <Datenaissance>16/01/1976</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 3,2/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Sebag frederic">
+        <Experience>Présentation : 
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>CARDIOLOGUE</spécialité>
+        <Mail>frederic.sebag@omnes.sante.fr</Mail>
+        <Datenaissance>03/04/1968</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4,2/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Cohen Laura">
+        <Experience>Présentation : 
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>GASTRO-HEPATO-ENTEROLOGUE</spécialité>
+        <Mail>laura.cohen@omnes.sante.fr</Mail>
+        <Datenaissance>28/02/1975</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4,6/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Sarfati Paulie">
+        <Experience>Présentation :
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>GYNECOLOGUE</spécialité>
+        <Mail>pauline.sarfati@omnes.sante.fr</Mail>
+        <Datenaissance>28/11/1974</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 3,8/5</évaluationdoctolib>
+    </Medecin>
+    
+
+
+</CV>

@@ -1,0 +1,42 @@
+Medecin {
+    display:block;
+  }
+  
+  Experience {
+    display:block;
+    padding:10px;
+    font-weight:bold;
+    color:rgb(39, 71, 67);
+    background-color: #ff000028;
+  }
+  
+ spécialité{
+    display:block;
+    padding: 1px;
+    font-weight:bold;
+    color:rgb(39, 142, 131);
+    background-color: #c3bfc465;
+    
+  }
+  Datenaissance{
+    display:block;
+    background-color: rgba(39, 142, 132, 0.412);
+  }
+
+  
+Mail{
+    display:block;
+    background-color: rgba(39, 142, 132, 0.412);
+  }
+  
+  nationalité {
+    display:block;
+    background-color: rgba(39, 142, 132, 0.412);
+
+    
+  }
+  
+  évaluationdoctolib{
+    display:block;
+    background-color: #ffc80065;
+  }
