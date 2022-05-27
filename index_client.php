@@ -148,7 +148,7 @@
                             target="_self" class="cpt">Client</a>
                     </li>
                     <li>
-                        <a href="index.html"
+                        <a href="index_client.php"
                             target="_self">Accueil</a>
                     </li>
                     <li>
