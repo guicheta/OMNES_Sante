@@ -110,7 +110,7 @@
                 <ul>
                     <li>
                         <a href="inscription.php"
-                            target="_self" class="cpt">Votre compte</a>
+                            target="_self" class="cpt">Client</a>
                     </li>
                     <li>
                         <a href="index.html"
@@ -134,7 +134,7 @@
         <div id="section">
             <article>
                 <header>Bienvenue sur OMNES Santé</header>
-                <p>
+                <p style="color: red;">
                    Omnes Santé bla bla bla bla bla bla bla bla bla bla bla bla
                    bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla
                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
@@ -165,7 +165,7 @@
                 <li>
                     <a href="https://www.google.com/maps/place/ECE+Paris+Lyon/@48.8517668,2.2842932,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6701b4f58251b:0x167f5a60fb94aa76!8m2!3d48.8517668!4d2.2864819"
                     class="maps">
-                         <img src="img/ggmaps.jpg" alt="Google Maps" width="100" height="80">
+                         <img src="img/ggmaps.jpg" alt="Google Maps" width="100" height="78">
                     </a>
                 </li>
                 <li>37, Quai de Grenelle, 75015, Paris</li>
@@ -181,5 +181,6 @@
                 </li>
             </ul>
         </div>
+</div>
 </body>
 </html>
