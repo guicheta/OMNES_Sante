@@ -50,19 +50,54 @@
             background-color: lightgreen;
             transition: 1s;
         }
-        a.search{
-            border-radius: 12px;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 1em 1.2em;
-        color: lightslategray;
-        background-color: white;
-        border: 1px solid lightslategray;
-        }
-        a.search:hover{
-            background-color: darkslategray;
-            transition: 1s;
-        }
+        *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+        .container {
+        box-sizing: border-box;
+        width: 25rem;
+        height: 100%;
+        margin: 0 1rem;
+        position: relative;
+      }
+      .searchbar {
+        font-size: 2.4rem;
+        width: 25rem;
+        height: 5rem;
+        border: none;
+        outline: none;
+        border-radius: 10rem;
+        padding: 2rem;
+        transition: all 0.1s;
+        transition-delay: 0.1s;
+      }
+      .searchbar:hover {
+        width: 27rem;
+        height: 6rem;
+      }
+      .button {
+        height: 2rem;
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
+        transition: all 0.1s;
+        transition-delay: 0.1s;
+      }
+      .button:hover {
+        cursor: pointer;
+      }
+      .searchbar:hover + .button {
+        height: 2.5rem;
+        top: 1.8rem;
+        right: 0;
+      }
+      .searchbar::placeholder {
+        opacity: 0.3;
+      }
     #section {
         background-color: lightblue;
         border: 2px solid black;
@@ -123,12 +158,12 @@
                     <li>
                         <a href="RDV.html"
                             target="_self">Rendez-vous</a>
-                    </li>
-                    <li>
-                        <a href="Recherche.html"
-                            target="_self" class="search">Recherche</a>
                     </li> 
                 </ul>
+            <div class="container">
+            <input type="text" maxlength="12" placeholder="Rechercher" class="searchbar" />
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41gYkruZM2L.png" alt="search icon" class="button" />
+          </div>
         </div>
 
         <div id="section">
