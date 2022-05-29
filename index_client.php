@@ -152,7 +152,7 @@
                             target="_self">Accueil</a>
                     </li>
                     <li>
-                        <a href="tout_parcourir.html"
+                        <a href="tout_parcourir.php"
                             target="_self">Tout parcourir</a>
                     </li>
                     <li>
