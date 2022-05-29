@@ -6,55 +6,45 @@
     <link href="inscription.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <?php
-// Informations d'identification
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'omnes_sante');
- 
-// Connexion à la base de données MySQL 
-$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
- 
-// Vérifier la connexion
-if($conn === false){
-    die("ERREUR : Impossible de se connecter. " . mysqli_connect_error());
+<?php
+$servername = "localhost";
+$database = "omnes_sante";
+$username = "root";
+$password = "";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $database);
+// Check connection
+if (!$conn) {
+      die("Échec de la connexion : " . mysqli_connect_error());
 }
+ 
+echo "BDD ok";
 
-if (isset($_REQUEST['ID_client'], $_REQUEST['nom'], $_REQUEST['prenom'], $_REQUEST['email'], $_REQUEST['mdp'], $_REQUEST['telephone'])){
+$IDclient = isset($_POST["id"])? $_POST["id"] : "";
 
-// récupérer le nom d'utilisateur et supprimer les antislashes ajoutés par le formulaire
-$ID_client = stripslashes($_REQUEST['ID_client']);
-$ID_client = mysqli_real_escape_string($conn, $ID_client); 
+$noom = isset($_POST["name"])? $_POST["name"] : "";
 
-$nom = stripslashes($_REQUEST['nom']);
-$nom = mysqli_real_escape_string($conn, $nom);
+$preenom = isset($_POST["surname"])? $_POST["surname"] : "";
 
-$prenom = stripslashes($_REQUEST['prenom']);
-$prenom = mysqli_real_escape_string($conn, $prenom);
+$eemail = isset($_POST["email"])? $_POST["email"] : "";
 
-$email = stripslashes($_REQUEST['email']);
-$email = mysqli_real_escape_string($conn, $email);
+$motdp = isset($_POST["motdepasse"])? $_POST["motdepasse"] : "";
 
-$mdp = stripslashes($_REQUEST['mdp']);
-$mdp = mysqli_real_escape_string($conn, $mdp);
-
-$telephone = stripslashes($_REQUEST['telephone']);
-$telephone = mysqli_real_escape_string($conn, $telephone);
-
-//requéte SQL + mot de passe crypté
-  $query = "INSERT into `client` (ID_client, nom, prenom, mail, mdp, telephone)
-            VALUES ('$ID_client', '$nom', '$prenom', '$email', '$mdp', '$telephone')";
-// Exécuter la requête sur la base de données
-  $res = mysqli_query($conn, $query);
-  if($res){
-     echo "<div class='sucess'>
-           <h3>Vous êtes inscrit avec succès.</h3>
-           <p>Cliquez ici pour vous <a href='login.php'>connecter</a></p>
-     </div>";
-  }
+$bigo = isset($_POST["tel"])? $_POST["tel"] : "";
+ 
+$sql = "INSERT INTO `client` (ID_client, nom, prenom, mail, mdp, telephone) VALUES ('$IDclient', '$noom', '$preenom', '$eemail', '$motdp', '$bigo')";
+$res=mysqli_query($conn, $sql);
+if ($res) {
+      echo "Nouveau enregistrement créé avec succès";
+} else {
+      echo "Erreur : " . $sql . "<br>" . mysqli_error($conn);
 }
+mysqli_close($conn);
 ?>
+
+
+
+
 <div class="inscription">
 
     <h1>Inscrivez-vous</h1>
@@ -69,11 +59,11 @@ $telephone = mysqli_real_escape_string($conn, $telephone);
         </div>
         <div>
             <label for="nom">Votre nom</label>
-            <input type="text" name="nom" placeholder="Dupond" required>
+            <input type="text" name="name" placeholder="Dupond" required>
         </div>
         <div>
             <label for="prenom">Votre prénom</label>
-            <input type="text" name="prenom" placeholder="Martin" required>
+            <input type="text" name="surname" placeholder="Martin" required>
         </div>
         <div>
             <label for="email">Votre e-mail</label>
