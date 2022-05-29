@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.titre {
+  padding: 70px 25px;
+  width: 100%;
+  background: #70c4ee;
+  text-align: center;
+}
+
+.titre ul {
+  margin: 0;
+  padding: 0;
+}
+
+.titre ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #75b9e6;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+
+}
+
+input{
+  border-color: white;
+  border-radius: 12px;
+  background-color: #75b9e6;
+color: #0b0b0b;
+}
+input:hover{
+            background-color: lightgreen;
+            transition: 1s;
+        }
+</style>
+</head>
+<body>
+
+<h1>CSS Calendar</h1>
+
+<div class="titre">      
+  <ul>
+
+    <li>
+      Planning<br>
+      <span style="font-size:18px">Créneau</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Lundi</li>
+  <li>Mardi</li>
+  <li>Mercredi</li>
+  <li>Jeudi</li>
+  <li>Vendredi</li>
+  <li>Samedi</li>
+  <li>Dimanche</li>
+</ul>
+
+<ul class="days">  
+  <li><a> <input type="button" value="10h00 "></li></a>
+  <li><a> <input type="button" value="10h00 "></li></a>
+  <li><a> <input type="button" value="10h00 "></li></a>
+  <li><a> <input type="button" value="10h00 "></li></a>
+  <li><a> <input type="button" value="10h00 "></li></a>
+  <li><a> <input type="button" value="10h00 "></li></a>
+  <li><a> <input type="button" value="10h00 "></li></a>
+
+  <li><a><input type="button" value="12h00 "></li></a>
+  <li><a><input type="button" value="12h00 "></li></a>
+  <li><a><input type="button" value="12h00 "></li></a>
+  <li><a><input type="button" value="12h00 "></li></a>
+  <li><a><input type="button" value="12h00 "></li></a>
+  <li><a><input type="button" value="12h00 "></li></a>
+  <li><a><input type="button" value="12h00 "></li></a>
+  
+  <li><a><input type="button" value="14h30 "></li></a>
+  <li><a><input type="button" value="14h30 "></li></a>
+  <li><a><input type="button" value="14h30 "></li></a>
+  <li><a><input type="button" value="14h30 "></li></a>
+  <li><a><input type="button" value="14h30 "></li></a>
+  <li><a><input type="button" value="14h30 "></li></a>
+  <li><a><input type="button" value="14h30 "></li></a>
+
+  <li><a><input type="button" value="16h00 "></li></a>
+  <li><a><input type="button" value="16h00 "></li></a>
+  <li><a><input type="button" value="16h00 "></li></a>
+  <li><a><input type="button" value="16h00 "></li></a>
+  <li><a><input type="button" value="16h00 "></li></a>
+  <li><a><input type="button" value="16h00 "></li></a>
+  <li><a><input type="button" value="16h00 "></li></a>
+
+  <li><a></a><input type="button" value="17h30 "></li></a>
+  <li><a></a><input type="button" value="17h30 "></li></a>
+  <li><a></a><input type="button" value="17h30 "></li></a>
+  <li><a></a><input type="button" value="17h30 "></li></a>
+  <li><a></a><input type="button" value="17h30 "></li></a>
+  <li><a></a><input type="button" value="17h30 "></li></a>
+  <li><a></a><input type="button" value="17h30 "></li></a>
+
+</ul>
+
+</body>
+</html>
