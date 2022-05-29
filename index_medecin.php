@@ -109,11 +109,11 @@
         <div id="navigation">
                 <ul>
                     <li>
-                        <a href="inscription.php"
+                        <a href="info_profil.php"
                             target="_self" class="cpt">Medecin</a>
                     </li>
                     <li>
-                        <a href="index.html"
+                        <a href="index_medecin.php"
                             target="_self">Accueil</a>
                     </li>
                     <li>
@@ -121,7 +121,7 @@
                             target="_self">Consultations</a>
                     </li>
                     <li>
-                        <a href="RDV.html"
+                        <a href="discussion.html"
                             target="_self">Discussions</a>
                     </li>
                 </ul>
