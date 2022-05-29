@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.css" type="text/css" ?>
+<CV> 
+
+    <Medecin id="Cohen Laura">
+        <Experience>Présentation : 
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>GASTRO-HEPATO-ENTEROLOGUE</spécialité>
+        <Mail>laura.cohen@omnes.sante.fr</Mail>
+        <Datenaissance>28/02/1975</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4,6/5</évaluationdoctolib>
+    </Medecin>
+    <Medecin id="Sarfati Paulie">
+
+</CV>

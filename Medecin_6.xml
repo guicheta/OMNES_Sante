@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.css" type="text/css" ?>
+<CV> 
+    <Medecin id="Malavoy Sophia">
+        <Experience>Présentation :
+        Psychologue clinicienne et psychothérapeute exerçant à la fois en cabinet libéral et en institution auprès de publics adultes et adolescents depuis une dizaine d’années. Formée aux thérapies d’orientation psychanalytique, aux thérapies cognitivo-comportementales ainsi qu'à l’hypnose thérapeutique et ayant une pratique intégrative. Celle-ci permet de définir avec le patient le type de prise en charge qui sera le plus adapté à ses besoins en fonction de ses symptômes, de sa souffrance, de ses difficultés et de la nécessité ou non d’avoir recours à l’une ou l’autre de ces approches thérapeutiques. Le premier entretien est l’occasion d’une rencontre afin d’évaluer les besoins de la personne venue consulter et les moyens mis en place par la psychologue pour y répondre.</Experience>
+        <spécialité>ADDICTOLOGUE</spécialité>
+        <Mail>sophia.malavoy@omnes.sante.fr</Mail>
+        <Datenaissance>14/02/1972</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 3,9/5</évaluationdoctolib>
+    </Medecin>
+
+</CV>

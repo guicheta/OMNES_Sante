@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.css" type="text/css" ?>
+<CV> 
+    <Medecin id="Desvaux Pierre">
+        <Experience>Présentation : 
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>ANDROLOGUE</spécialité>
+        <Mail>pierre.desvaux@omnes.sante.fr</Mail>
+        <Datenaissance>08/12/1970</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4,9/5</évaluationdoctolib>
+    </Medecin>
+</CV>

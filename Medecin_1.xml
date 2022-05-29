@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.css" type="text/css" ?>
+<CV> 
+    <Medecin id="Bouree Pascal">
+        <Experience>Présentation : Médecin à la cool et 12 ans d'experience dans le domaine médical</Experience>
+        <spécialité>GENERALISTE</spécialité>
+        <Mail>pascal.bourre@omnes.sante.fr</Mail>
+        <Datenaissance>18/10/1975</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4/5</évaluationdoctolib>
+    </Medecin>
+</CV>

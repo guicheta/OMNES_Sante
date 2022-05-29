@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.css" type="text/css" ?>
+<CV> 
+    <Medecin id="Valin Giles">
+        <Experience>Présentation :
+
+        Le docteur Giles Valin, médecin généraliste, exerce dans un cabinet libéral indépendant proche de l'hôpital de Rambouillet.
+        Au sein d'un cabinet récent, le docteur Giles vous reçoit pour des consultations de médecine générale, pour des actes pédiatriques ou gynécologiques (suivi de grossesses, contraception, etc.), pour des expertises médicales dans le cadre d'un agrément ARS 78.
+        Le docteur Giles accepte les urgences, vous pouvez pour cela prendre rendez-vous en ligne ou par téléphone avec la secrétaire si vous ne trouvez pas de disponibilité sur internet.
+        Le docteur Giles n'effectue plus des déclarations "médecin traitant" au premier rendez-vous, en dehors des conjoints et enfants des patients déjà connus.
+
+        A noter : le docteur Giles reçoit le samedi de 9h à 11h.</Experience>
+        <spécialité>GENERALISTE</spécialité>
+        <Mail>giles.valin@omnes.sante.fr</Mail>
+        <Datenaissance>22/06/1977</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 4,5/5</évaluationdoctolib>
+    </Medecin>
+   
+</CV>

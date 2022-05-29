@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.css" type="text/css" ?>
+<CV>
+
+    <Medecin id="Brachat Olivier">
+        <Experience>Présentation : 
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>DERMATOLOGUE</spécialité>
+        <Mail>olivier.brachat@omnes.sante.fr</Mail>
+        <Datenaissance>16/01/1976</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 3,2/5</évaluationdoctolib>
+    </Medecin>
+
+</CV>

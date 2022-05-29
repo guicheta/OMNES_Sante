@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.css" type="text/css" ?>
+<CV> 
+
+    <Medecin id="Guyot Anne">
+        <Experience>Présentation : Le médecin généraliste accueille les enfants et les adultes pour tous types de soins médicaux généraux (consultation, contrôle annuel, vaccination, bilan de santé). Il assure également un suivi des patients dans le temps et les oriente vers des médecins spécialistes en cas de besoin.</Experience>
+        <spécialité>GENERALISTE</spécialité>
+        <Mail>anne.guyot@omnes.sante.fr</Mail>
+        <Datenaissance>10/09/1978</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 2,5/5</évaluationdoctolib>
+    </Medecin>
+
+</CV>

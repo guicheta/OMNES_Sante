@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.css" type="text/css" ?>
+<CV> 
+    <Medecin id="Florence Breuil">
+        <Experience>Présentation :
+                    Diplômes nationaux et universitaires
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris
+                    Diplôme d'État de docteur en médecine - Faculté de médecine de Paris</Experience>
+        <spécialité>GENERALISTE</spécialité>
+        <Mail>florence.breuil@omnes.sante.fr</Mail>
+        <Datenaissance>11/02/1976</Datenaissance>
+        <nationalité>Française</nationalité>
+        <évaluationdoctolib>Note : 3,5/5</évaluationdoctolib>
+    </Medecin>
+    
+</CV>
